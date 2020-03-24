@@ -1,0 +1,3 @@
+| carry   |            | 1           | 0           |
+| initial | carry, ,L  | initial,1,R | initial,0,R |
+| carry   | accept,1,L | carry,0,L   | accept,1,L  |

@@ -1,0 +1,15 @@
+This is a test
+
+| equal? | O      | I       | X       | =       |         |
+|--------+--------+---------+---------+---------+---------|
+| 0      | f,X,R  | ff,X,R  | 0,X,R   | acc,=,R | re,=,L  |
+| f      | f,O,R  | f,I,R   | f,I,R   | o,=,R   | re,=,L  |
+| o      | be,X,R | re,o,R  | o,X,R   | re,=,R  | re,=,L  |
+| ff     | ff,O,R | ff,I ,R | ff ,X,R | oo,=,R  | re,=,L  |
+| oo     | re,O,R | be,X,R  | oo,X,R  | re,=,R  | re,=,L  |
+| be     | be,O,L | be,I,L  | be,X,L  | bf,=,L  | acc,E,R |
+| bf     | bf,O,L | bf,I,L  | 0,X,R   | re,=,R  | acc,=,R |
+
+input: IIO=IIO
+
+This test has passed

@@ -1,0 +1,6 @@
+2:19:
+  |
+2 | | 0      | f,X,R  | ff,X,R  | 0,X,R   | acc,e,R | re,e,L  |
+  |                   ^
+unexpected '|'
+expecting ',' or space
